@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Home | APEX GYM</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js"></script>
+</head>
+<body>
+
+    <!-- NAVIGATION BAR -->
+     <header class="site-header">
+        <nav class="navbar" aria-label="Main navigation">
+
+            <a href="index.html" class="logo" aria-label="APEX GYM home">
+            APEX<span>GYM</span></a>
+
+            <button class="nav-toggle" id="nav-toggle" aria-label="Open menu" aria aria-expanded="fals" aria-controls="nav-menu">
+            <span></span><span></span><span></span></button>
+
+            <ul class="nav-links" id="nav-menu">
+                <li><a href="index.html" aria-current="page">home</a></li>
+                <li><a href="coaches.html">Coaches</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="membership.html">Membership</a></li>
+                <li class="nav-guest"><a href="login.html">Log In</a></li>
+                <li class="nav-guest"><a href="signup.html" class="btn btn-small">Sign Up</a></li>
+
+                <!-- Showwn when logged in -->
+                <li class="nav-user" hidden>
+                    <span id="nav-username" class="nav-greeting"></span>
+                </li>
+                <li class="nav-user" hidden>
+                    <button type="button" id="logout-btn" class="btn btn-small btn-outline">Logout</button>
+                </li>
+            </ul>
+        </nav>
+     </header>
+
+     <main>
+
+        <!-- Hero Section -->
+        <section class="hero" id="home">
+            <div class="hero-content">
+                <h1>Unleash your potential.</h1>
+                <p>Train at APEX GYM in Dukagjini Center, Prishtin. Strong equipment, real coaches and a plan that fits your month</p>
+                <div class="hero-buttons">
+                    <a href="signup.html" class="btn">JOIN NOW</a>
+                    <a href="membership.html" class="btn btn-outline">EXPLORE MEMBERSHIP</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Slider Section -->
+        <section class="section section-dark" aria-labelledby="highlights-title">
+            <div class="container">
+                <h2 class="section-title" id="highlights-title">WHY TRAIN AT APEX</h2>
+                <p class="section-subtitle">Slide to see more...</p>
+
+                <div class="slider" id="slider" aria-roledescription="carousel" aria-label="APEX GYM Highlights">
+                    <div class="slider-viewport">
+                        <div class="slider-track" id="slider-track">
+                            <article class="slide">
+
+                            </article>
+                            <article class="slide">
+
+                            </article>
+                            <article class="slide">
+
+                            </article>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- How to join -->
+        <aside></aside>
+
+        <!-- Footer -->
+        <footer></footer>
+
+     </main>
+</body>
+</html>
